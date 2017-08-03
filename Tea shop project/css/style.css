@@ -1,0 +1,159 @@
+body {
+	font-family: Helvetica;
+	font-size: 22px;
+	color: seashell;
+	background-color: black;
+	opacity:0.9;
+	text-align: center;
+}
+
+/*header + navigation*/
+
+
+.header {
+	display: flex;
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    background-color: black;
+}
+
+
+.logo img {
+	height: 50px;
+    padding-left: 10px;
+}
+
+nav {
+	text-align: right;
+	margin-left: auto;
+}
+
+nav span {
+	display: inline-block;
+    text-decoration: underline;
+    padding-right: 30px;
+}
+
+a {
+ color: seashell;
+ }
+
+/*MAIN CONTENT (3 SECTIONS)*/
+
+
+.container {
+	padding-top: 63px;
+	margin:0 auto;
+	width:1200px;
+}
+
+
+/*SECTION 1 = Mission*/
+
+
+.section1 {
+
+	background-image: url(../resources/mission.jpg);
+	display: flex;
+	height: 700px;
+	justify-content: center;
+	align-items: center;
+}
+
+.our_mission {
+	display: block;
+	width: 1200px;
+	background-color: black;
+}
+
+/*SECTION 2 = tea*/
+
+.section2 {
+	padding: 60px 0;
+	width:1000px;
+	margin: 0 auto;
+}
+
+.tea_container {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.tea_text h2 {
+
+	text-align: center;
+	margin: 0 auto;
+}
+
+.tea_pic img {
+	display: block;
+	width: 300px;
+	height:200px;
+	padding:20px;
+}
+
+.tea_description {
+
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+}
+
+
+.tea_2container {
+	display: flex;
+	justify-content: center;
+
+}
+
+/*SECTION 3 = location*/
+
+.section3 {
+	background-image: url(../resources/location.jpg);
+	height:500px;
+	margin: 0 auto;
+	padding-top: 70px: 
+}
+
+.location_container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+
+.address {
+	display: flex;
+	flex-direction: column;
+	opacity:1;
+	width: 300px;
+	height: 300px;
+	background-color: black;
+	margin: 40px 15px;
+}
+
+h2 {
+	display: block;
+	width: 100%;
+	text-align: center;	
+}
+
+/*CONTACT DETAILS*/
+
+#contact {
+	height: 200px;
+}
+
+/*FOOTER*/
+
+footer {
+	text-align: left;
+	margin-left: 20px;
+
+}
+
